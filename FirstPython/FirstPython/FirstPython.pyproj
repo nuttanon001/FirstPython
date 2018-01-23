@@ -1,0 +1,59 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9645a0b7-d053-463c-ae58-7adf80bbc2f3</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>FirstPython.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>FirstPython</Name>
+    <RootNamespace>FirstPython</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FirstPython.py" />
+    <Compile Include="Leaning\dictionary1.py" />
+    <Compile Include="Leaning\dictionary2.py" />
+    <Compile Include="Leaning\for_test1.py" />
+    <Compile Include="Leaning\globalVar1.py" />
+    <Compile Include="Leaning\handly_string.py" />
+    <Compile Include="Leaning\helloFunc.py" />
+    <Compile Include="Leaning\helloFunc2.py" />
+    <Compile Include="Leaning\hello_name.py" />
+    <Compile Include="Leaning\import_module.py" />
+    <Compile Include="Leaning\list1.py" />
+    <Compile Include="Leaning\list2.py" />
+    <Compile Include="Leaning\magic8BallFinc3.py" />
+    <Compile Include="Leaning\password.py" />
+    <Compile Include="Leaning\pw.py" />
+    <Compile Include="Leaning\swordfish.py" />
+    <Compile Include="Leaning\sys_exit.py" />
+    <Compile Include="Leaning\tryExption.py" />
+    <Compile Include="Leaning\tuple1.py" />
+    <Compile Include="Leaning\while_empty.py" />
+    <Compile Include="Leaning\you_nam2.py" />
+    <Compile Include="Leaning\you_name.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Leaning\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
