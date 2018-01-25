@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9645a0b7-d053-463c-ae58-7adf80bbc2f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Leaning\downloadXkcd.py</StartupFile>
+    <StartupFile>Leaning\multidownloadXkcd.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,9 @@
     <Compile Include="Leaning\boxPrint.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Leaning\datetime_1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Leaning\dictionary1.py" />
     <Compile Include="Leaning\dictionary2.py" />
     <Compile Include="Leaning\downloadXkcd.py">
@@ -46,6 +49,9 @@
     <Compile Include="Leaning\list1.py" />
     <Compile Include="Leaning\list2.py" />
     <Compile Include="Leaning\magic8BallFinc3.py" />
+    <Compile Include="Leaning\multidownloadXkcd.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Leaning\organizing_file1.py">
       <SubType>Code</SubType>
     </Compile>
@@ -63,8 +69,14 @@
     <Compile Include="Leaning\rename_dates.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Leaning\stopwatch.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Leaning\swordfish.py" />
     <Compile Include="Leaning\sys_exit.py" />
+    <Compile Include="Leaning\threadDemo.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Leaning\tryExption.py" />
     <Compile Include="Leaning\tuple1.py" />
     <Compile Include="Leaning\webRequests.py">
