@@ -1,0 +1,9 @@
+{
+	"make": "tesla",
+	"model": "model s",
+	"year": 2016,
+	"odometer_reading": 23,
+	"battery": {
+		"battery_size": 85
+	}
+}

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9645a0b7-d053-463c-ae58-7adf80bbc2f3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Leaning\multidownloadXkcd.py</StartupFile>
+    <StartupFile>SecondLearning\test_survey.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,72 +22,110 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FirstPython.py" />
-    <Compile Include="Leaning\backupToZip.py">
+    <Compile Include="FirstLearning\backupToZip.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\boxPrint.py">
+    <Compile Include="FirstLearning\boxPrint.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\datetime_1.py">
+    <Compile Include="FirstLearning\datetime_1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\dictionary1.py" />
-    <Compile Include="Leaning\dictionary2.py" />
-    <Compile Include="Leaning\downloadXkcd.py">
+    <Compile Include="FirstLearning\dictionary1.py" />
+    <Compile Include="FirstLearning\dictionary2.py" />
+    <Compile Include="FirstLearning\downloadXkcd.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\factorialLog.py">
+    <Compile Include="FirstLearning\factorialLog.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\for_test1.py" />
-    <Compile Include="Leaning\globalVar1.py" />
-    <Compile Include="Leaning\handly_string.py" />
-    <Compile Include="Leaning\helloFunc.py" />
-    <Compile Include="Leaning\helloFunc2.py" />
-    <Compile Include="Leaning\hello_name.py" />
-    <Compile Include="Leaning\import_module.py" />
-    <Compile Include="Leaning\list1.py" />
-    <Compile Include="Leaning\list2.py" />
-    <Compile Include="Leaning\magic8BallFinc3.py" />
-    <Compile Include="Leaning\multidownloadXkcd.py">
+    <Compile Include="FirstLearning\for_test1.py" />
+    <Compile Include="FirstLearning\globalVar1.py" />
+    <Compile Include="FirstLearning\handly_string.py" />
+    <Compile Include="FirstLearning\helloFunc.py" />
+    <Compile Include="FirstLearning\helloFunc2.py" />
+    <Compile Include="FirstLearning\hello_name.py" />
+    <Compile Include="FirstLearning\import_module.py" />
+    <Compile Include="FirstLearning\list1.py" />
+    <Compile Include="FirstLearning\list2.py" />
+    <Compile Include="FirstLearning\magic8BallFinc3.py" />
+    <Compile Include="FirstLearning\multidownloadXkcd.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\organizing_file1.py">
+    <Compile Include="FirstLearning\organizing_file1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\password.py" />
-    <Compile Include="Leaning\path_file1.py">
+    <Compile Include="FirstLearning\password.py" />
+    <Compile Include="FirstLearning\path_file1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\phoneAndEmail.py">
+    <Compile Include="FirstLearning\phoneAndEmail.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\pw.py" />
-    <Compile Include="Leaning\regex1.py">
+    <Compile Include="FirstLearning\pw.py" />
+    <Compile Include="FirstLearning\regex1.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\rename_dates.py">
+    <Compile Include="FirstLearning\rename_dates.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\stopwatch.py">
+    <Compile Include="FirstLearning\stopwatch.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\swordfish.py" />
-    <Compile Include="Leaning\sys_exit.py" />
-    <Compile Include="Leaning\threadDemo.py">
+    <Compile Include="FirstLearning\swordfish.py" />
+    <Compile Include="FirstLearning\sys_exit.py" />
+    <Compile Include="FirstLearning\threadDemo.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\tryExption.py" />
-    <Compile Include="Leaning\tuple1.py" />
-    <Compile Include="Leaning\webRequests.py">
+    <Compile Include="FirstLearning\tryExption.py" />
+    <Compile Include="FirstLearning\tuple1.py" />
+    <Compile Include="FirstLearning\webRequests.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Leaning\while_empty.py" />
-    <Compile Include="Leaning\you_nam2.py" />
-    <Compile Include="Leaning\you_name.py" />
+    <Compile Include="FirstLearning\while_empty.py" />
+    <Compile Include="FirstLearning\you_nam2.py" />
+    <Compile Include="FirstLearning\you_name.py" />
+    <Compile Include="MachineLearning\check_verion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MachineLearning\machine_learning_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\car_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\dog_class.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\language_survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\main_apps.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\number_json.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\pizza_func.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\string_json.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\test_survey.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SecondLearning\working_list1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Leaning\" />
+    <Folder Include="D:\Python\FirstPython\FirstPython\FirstPython\FirstLearning\" />
+    <Folder Include="D:\Python\FirstPython\FirstPython\FirstPython\MachineLearning\" />
+    <Folder Include="D:\Python\FirstPython\FirstPython\FirstPython\SecondLearning\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
