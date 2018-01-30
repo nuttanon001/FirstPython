@@ -126,6 +126,9 @@
     <Folder Include="D:\Python\FirstPython\FirstPython\FirstPython\FirstLearning\" />
     <Folder Include="D:\Python\FirstPython\FirstPython\FirstPython\MachineLearning\" />
     <Folder Include="D:\Python\FirstPython\FirstPython\FirstPython\SecondLearning\" />
+    <Folder Include="FirstLearning\" />
+    <Folder Include="MachineLearning\" />
+    <Folder Include="SecondLearning\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
